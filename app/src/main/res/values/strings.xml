@@ -1,0 +1,129 @@
+
+<resources>
+    <string name="app_name" translatable="false">Blackjack Counter</string>
+
+    <string name="title_activity_principal">Blackjack Counter</string>
+    <string name="title_activity_prueba">Blackjack Counter</string>
+    <string name="title_activity_number">Blackjack Counter</string>
+    <string name="string_deck">NUMBER OF DECKS</string>
+    <string name="string_true">True Count</string>
+    <string name="string_what">What is the True Count?</string>
+
+    // Counter Simple
+    <string name="string_plus">There are no cards between 2 and 6</string>
+    <string name="string_minus">There are no cards between 10 and A</string>
+    <string name="string_equal">There are no cards between 7 and 9</string>
+    <string name="string_total">There are no cards in the deck</string>
+
+    //Menu
+    <string name="string_counter">COUNTER</string>
+    <string name="string_trainer">TRAINER</string>
+    <string name="string_how">HOW TO COUNT CARDS</string>
+
+    // Counter
+    <string name="string_advanced">ADVANCED\nSTATS</string>
+    <string name="string_no_1">There are not A</string>
+    <string name="string_no_2">There are not 2</string>
+    <string name="string_no_3">There are not 3</string>
+    <string name="string_no_4">There are not 4</string>
+    <string name="string_no_5">There are not 5</string>
+    <string name="string_no_6">There are not 6</string>
+    <string name="string_no_7">There are not 7</string>
+    <string name="string_no_8">There are not 8</string>
+    <string name="string_no_9">There are not 9</string>
+    <string name="string_no_10">There are not 10</string>
+    <string name="string_no_J">There are not J</string>
+    <string name="string_no_Q">There are not Q</string>
+    <string name="string_no_K">There are not K</string>
+    <string name="string_there">There are </string>
+    <string name="string_and"> and </string>
+    <string name="string_left"> cards in total</string>
+    <string name="string_reset">Do you want to reset the running count?</string>
+    <string name="string_reset_title">Reset</string>
+    <string name="string_extra">EXTRA INFORMATION</string>
+    <string name="string_cards">CARDS</string>
+    <string name="string_history">HISTORY</string>
+    <string name="string_num_his">Number of items in the history:</string>
+    <string name="string_info_his1">Position</string>
+    <string name="string_info_his2">Card</string>
+
+
+    //Trainer
+    <string name="string_speed">SPEED</string>
+    <string name="string_speed_normal">NORMAL</string>
+    <string name="string_speed_fast">FAST</string>
+    <string name="string_speed_slow">SLOW</string>
+    <string name="string_number_cards">NUMBER OF CARDS</string>
+    <string name="string_count_result">THE RUNNING COUNT</string>
+    <string name="string_acept">OK</string>
+    <string name="string_try_again">TRY\nAGAIN</string>
+    <string name="string_repeat">REPEAT</string>
+    <string name="string_change_settings">CHANGE\nSETTINGS</string>
+    <string name="string_good">GOOD</string>
+    <string name="string_wrong">WRONG</string>
+    <string name="string_wrong_des">The count is </string>
+    <string name="string_value">Enter a value</string>
+    <string name="string_info_count">The count is </string>
+    <string name="string_between">Must be a number between 1 and 52</string>
+
+    //Help
+    <string name="string_help">Help</string>
+    <string name="string_help_des">Select with how many decks are you playing.
+        \nIf you don\'t know it, in casinos they usually play with 7.</string>
+    <string name="string_help_des2">Here you can practice the counting cards technique.
+        \nSelect with how many cards you want to practice and the velocity.
+        \nPress Start and keep the running count</string>
+
+
+
+    <string name="string_work">In process</string>
+    <string name="action_settings">Settings</string>
+    <string name="string_spanish">Spanish</string>
+    <string name="string_english">English</string>
+    <string name="string_ok">OK</string>
+    <string name="string_cancel">Cancel</string>
+
+    //Info
+    <string name="string_how_des_4steps">Counting cards can be broken into 4 steps:</string>
+    <string name="string_how_des_step_1">Step 1: Assign a value to every card</string>
+    <string name="string_how_des_step_2">Step 2: The running count</string>
+
+    <string name="string_how_des_step_2_des">Keep a running count by adding or subtracting every
+        card that you see in each shoe.\nAs each card is dealt, we will update our “running count”
+        with the new information we are given.</string>
+    <string name="string_how_des_step_2_des2">The running count for this round is +1.
+        \nA card counter does this for each card that comes out of the shoe: card after card and
+        round after round until the dealer shuffles the cards again.
+        \nIf the running count increases, the advantage begins shifting to the player.
+        If the running count goes negative, the casino’s advantage increases.</string>
+
+    <string name="string_how_des_step_3">Step 3: “True Count”</string>
+    <string name="string_how_des_step_3_des">In an attempt to thwart card counters,
+        casinos began using multiple decks.\nTo use our running count in a multiple deck game,
+        we simply have to translate our information into a "True Count" or "count per deck".
+        \nWe’ll break down each step below. Having a +5 running count with 6 decks remaining is a
+        completely different scenario from having a +5 running count with only 1 deck remaining.
+        \nIn the first instance, there is less than 1 additional high card per deck remaining so
+        the player doesn’t have the advantage yet.
+        It’s not just the number of extra high cards that matters to a card counter;
+        it’s the concentration of high cards compared to the concentration of low cards.
+        \nSo if you had that running count of 5 with only 1 deck remaining, we know that there
+        are 5 extra 10’s and Aces in the remaining 52 cards, which puts the edge in the hands
+        of the player! That’s why the “True Count” is so valuable. </string>
+    <string name="string_how_des_step_3_des2">For example: If our Running Count is 10 and we
+        have 5 decks remaining, our True Count is 10÷5 = 2. Or if our Running Count
+        is -7 and we have 2 decks remaining, our True Count is -7÷2 = -3.</string>
+
+    <string name="string_how_des_step_4">Step 4: Change your bets as the true count rises
+        and falls</string>
+    <string name="string_how_des_step_4_des">TRUE COUNT SYSTEM:
+        \n- True Count in +1 or less: minimal bet.
+        \n- True Count in +2 or +3: bet 2 times the initial bet.
+        \n- True Count in +4 or +5: bet 3 times the initial bet.
+        \n- True Count in +6 or +7: bet 4 times the initial bet.
+        \n- True Count in en +8 or more: your choice.</string>
+    <string name="string_how_advise">Counting cards is a method based on mathematics
+        and statistics. It’s not 100% effective, play and bet under your responsibility.</string>
+    <string name="string_more_info">More info</string>
+
+</resources>

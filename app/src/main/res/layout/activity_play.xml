@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo3"
+    tools:context="com.example.sergio.blackjack.Play">
+
+
+        <TextView
+            android:id="@+id/countdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/play_countdown_size" />
+
+        <ImageView
+            android:id="@+id/card_1"
+            android:layout_width="@dimen/play_card_width"
+            android:layout_height="@dimen/play_card_height"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="invisible" />
+
+
+</RelativeLayout>
+

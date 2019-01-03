@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sergio.blackjack.Trainer"
+    android:background="@drawable/fondo3">
+
+
+        <TextView
+            android:id="@+id/textStart"
+            android:layout_width="@dimen/trainer_button_start_width"
+            android:layout_height="@dimen/trainer_button_start_height"
+            android:layout_alignLeft="@+id/buttonStart"
+            android:layout_alignStart="@+id/buttonStart"
+            android:layout_alignRight="@+id/buttonStart"
+            android:layout_alignEnd="@+id/buttonStart"
+            android:layout_below="@+id/countResult"
+            android:layout_marginTop="@dimen/trainer_button_start_margin_top"
+            android:gravity="center"
+            android:text="START"
+            android:textColor="#000000"
+            android:textSize="@dimen/trainer_text_start_size" />
+
+        <ImageButton
+            android:id="@+id/buttonStart"
+            android:layout_width="@dimen/trainer_button_start_width"
+            android:layout_height="@dimen/trainer_button_start_height"
+            android:background="@drawable/button_large"
+            android:layout_alignTop="@+id/textStart"
+            android:layout_centerHorizontal="true" />
+
+
+        <TextView
+            android:id="@+id/textSpeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/numberCards"
+            android:layout_alignLeft="@+id/textNum"
+            android:layout_alignStart="@+id/textNum"
+            android:layout_marginBottom="75dp"
+            android:text="@string/string_speed"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/trainer_speed_size" />
+
+        <TextView
+            android:id="@+id/textNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/countResult"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="@dimen/trainer_margin_left"
+            android:text="@string/string_number_cards"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/trainer_speed_size" />
+
+        <TextView
+            android:id="@+id/textSpeedOp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textSpeed"
+            android:layout_alignBottom="@+id/textSpeed"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/trainer_margin_right"
+            android:text="@string/string_speed_normal"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/trainer_speed_op_size" />
+
+        <TextView
+            android:id="@+id/textPlus"
+            android:layout_width="@dimen/trainer_button_speed_width"
+            android:layout_height="@dimen/trainer_button_speed_height"
+            android:layout_above="@+id/textAsk"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/trainer_margin_right"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="#000000"
+            android:textSize="@dimen/trainer_button_speed_text" />
+
+        <ImageButton
+            android:id="@+id/buttonPlus"
+            android:layout_width="@dimen/trainer_button_speed_width"
+            android:layout_height="@dimen/trainer_button_speed_height"
+            android:layout_above="@+id/textSpeedOp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/trainer_margin_right"
+            android:background="@drawable/button_large"/>
+
+        <TextView
+            android:id="@+id/textMinus"
+            android:layout_width="@dimen/trainer_button_speed_width"
+            android:layout_height="@dimen/trainer_button_speed_height"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textSpeedOp"
+            android:layout_marginRight="@dimen/trainer_margin_right"
+            android:gravity="center"
+            android:text="-"
+            android:textColor="#000000"
+            android:textSize="@dimen/trainer_button_speed_text" />
+
+        <ImageButton
+            android:id="@+id/buttonMinus"
+            android:layout_width="@dimen/trainer_button_speed_width"
+            android:layout_height="@dimen/trainer_button_speed_height"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textSpeedOp"
+            android:layout_marginRight="@dimen/trainer_margin_right"
+            android:background="@drawable/button_large"/>
+
+
+        <EditText
+            android:id="@+id/numberCards"
+            android:layout_width="@dimen/trainer_edit_width"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textNum"
+            android:layout_alignBottom="@+id/textNum"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/trainer_margin_right"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/trainer_edit_size" />
+
+
+        <TextView
+            android:id="@+id/textAsk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textSpeed"
+            android:layout_centerHorizontal="true"
+            android:text="@string/string_count_result"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/trainer_ask_size"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/countResult"
+            android:layout_width="@dimen/trainer_edit_width"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number|numberSigned"
+            android:textSize="@dimen/trainer_edit_size"
+            android:visibility="invisible"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textAcept"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/string_acept"
+            android:textColor="#000000"
+            android:textSize="@dimen/trainer_text_start_size"
+            android:visibility="invisible"
+            android:layout_alignBottom="@+id/buttonAcept"
+            android:layout_alignLeft="@+id/buttonAcept"
+            android:layout_alignStart="@+id/buttonAcept"
+            android:layout_alignTop="@+id/buttonAcept"
+            android:layout_alignRight="@+id/buttonAcept"/>
+
+
+        <ImageButton
+            android:id="@+id/buttonAcept"
+            android:layout_width="@dimen/trainer_button_start_width"
+            android:layout_height="@dimen/trainer_button_start_height"
+            android:visibility="invisible"
+            android:background="@drawable/button_large"
+            android:layout_alignTop="@+id/textStart"
+            android:layout_alignLeft="@+id/textStart"
+            android:layout_alignStart="@+id/textStart" />
+
+        <TextView
+            android:id="@+id/textBack"
+            android:layout_width="@dimen/trainer_buttons_end_width"
+            android:layout_height="@dimen/trainer_buttons_end_height"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="@dimen/trainer_buttons_end_margin_right"
+            android:gravity="center"
+            android:layout_below="@+id/buttonStart"
+            android:text="@string/string_change_settings"
+            android:textColor="#000000"
+            android:textSize="@dimen/trainer_end_button_text_size"
+            android:layout_marginTop="@dimen/trainer_buttons_end_margin_top"
+            android:visibility="invisible"/>
+
+        <ImageButton
+            android:id="@+id/buttonBack"
+            android:layout_width="@dimen/trainer_buttons_end_width"
+            android:layout_height="@dimen/trainer_buttons_end_height"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/buttonStart"
+            android:layout_marginLeft="@dimen/trainer_buttons_end_margin_right"
+            android:layout_marginTop="@dimen/trainer_buttons_end_margin_top"
+            android:background="@drawable/button_large"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/textRepeat"
+            android:layout_width="@dimen/trainer_buttons_end_width"
+            android:layout_height="@dimen/trainer_buttons_end_height"
+            android:gravity="center"
+            android:text="@string/string_repeat"
+            android:textColor="#000000"
+            android:textSize="@dimen/trainer_end_button_text_size"
+            android:layout_marginTop="@dimen/trainer_buttons_end_margin_top"
+            android:layout_marginRight="@dimen/trainer_buttons_end_margin_right"
+            android:layout_below="@+id/buttonStart"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:visibility="invisible"/>
+
+        <ImageButton
+            android:id="@+id/buttonRepeat"
+            android:layout_width="@dimen/trainer_buttons_end_width"
+            android:layout_height="@dimen/trainer_buttons_end_height"
+            android:background="@drawable/button_large"
+            android:layout_marginTop="@dimen/trainer_buttons_end_margin_top"
+            android:layout_marginRight="@dimen/trainer_buttons_end_margin_right"
+            android:layout_below="@+id/buttonStart"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/textCorrect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textMistake"
+            android:layout_alignBottom="@+id/textMistake"
+            android:layout_centerHorizontal="true"
+            android:text="@string/string_good"
+            android:textColor="#2DDD21"
+            android:textSize="@dimen/trainer_answer_size"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/textMistake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_wrong"
+            android:textColor="#9c1212"
+            android:textSize="@dimen/trainer_answer_size"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/countResult"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textSolution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textMistake"
+            android:layout_centerHorizontal="true"
+            android:text="@string/string_wrong_des"
+            android:textColor="#9c1212"
+            android:textSize="@dimen/trainer_answer_des_size"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/buttonQuest"
+            android:layout_width="@dimen/button_number_quest_size"
+            android:layout_height="@dimen/button_number_quest_size"
+            android:layout_marginRight="@dimen/trainer_margin_right"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_quest"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

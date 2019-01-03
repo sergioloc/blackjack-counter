@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sergio.blackjack.Info"
+    android:background="@drawable/fondo3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/string_how"
+                android:id="@+id/textHow"
+                android:textStyle="bold|italic"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/info_title_size"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/info_title_margin_top" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/string_how_des_4steps"
+                android:id="@+id/textHowDes"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/info_des_size"
+                android:layout_below="@+id/textHow"
+                android:layout_marginTop="@dimen/info_title_margin_top"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/string_how_des_step_1"
+                android:id="@+id/textHowStep1"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/info_steps_size"
+                android:textStyle="bold"
+                android:layout_below="@+id/textHowDes"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/info_title_margin_top" />
+
+            <ImageView
+                android:id="@+id/value1"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/textHowStep1"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/value_plus"
+                android:layout_marginTop="@dimen/info_des_margin"/>
+
+            <ImageView
+                android:id="@+id/value2"
+                android:layout_width="190dp"
+                android:layout_height="140dp"
+                android:layout_below="@+id/value1"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/value_equal"/>
+
+            <ImageView
+                android:id="@+id/value3"
+                android:layout_width="310dp"
+                android:layout_height="160dp"
+                android:layout_below="@+id/value2"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/value_minus"
+                android:layout_marginTop="@dimen/info_des_margin"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/string_how_des_step_2"
+                android:id="@+id/textHowStep2"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/info_steps_size"
+                android:textStyle="bold"
+                android:layout_below="@+id/value3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/info_steps_margin" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/string_how_des_step_2_des"
+                android:id="@+id/textHowStep2Des"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/info_des_size"
+                android:layout_below="@+id/textHowStep2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/info_des_margin" />
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:id="@+id/textHowStep2Des2"
+                android:background="@drawable/example_count"
+                android:layout_below="@+id/textHowStep2Des"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/info_image_margin" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/string_how_des_step_2_des2"
+                android:id="@+id/textHowStep2Des3"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/info_des_size"
+                android:layout_below="@+id/textHowStep2Des2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/info_image_margin" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/string_how_des_step_3"
+                android:id="@+id/textHowStep3"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/info_steps_size"
+                android:textStyle="bold"
+                android:layout_below="@+id/textHowStep2Des3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/info_steps_margin" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/string_how_des_step_3_des"
+                android:id="@+id/textHowStep3Des"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/info_des_size"
+                android:layout_below="@+id/textHowStep3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/info_des_margin" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/string_how_des_step_3_des2"
+                android:id="@+id/textHowStep3Des3"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/info_des_size"
+                android:layout_below="@+id/textHowStep3Des"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/info_des_margin" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/string_how_des_step_4"
+                android:id="@+id/textHowStep4"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/info_steps_size"
+                android:textStyle="bold"
+                android:layout_below="@+id/textHowStep3Des3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/info_steps_margin" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/string_how_des_step_4_des"
+                android:id="@+id/textHowStep4Des"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/info_des_size"
+                android:layout_below="@+id/textHowStep4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/info_des_margin" />
+
+            <ImageView
+                android:id="@+id/separador"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_below="@+id/textHowStep4Des"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/line_white"
+                android:layout_marginTop="@dimen/info_image_margin"/>
+
+            <ImageButton
+                android:id="@+id/moreInfo"
+                android:layout_width="@dimen/info_button_more_size"
+                android:layout_height="@dimen/info_button_more_size"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@+id/separador"
+                android:background="@drawable/button_chip"/>
+
+            <TextView
+                android:id="@+id/textMoreInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/separador"
+                android:layout_alignTop="@+id/moreInfo"
+                android:layout_alignBottom="@+id/moreInfo"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_toRightOf="@+id/moreInfo"
+                android:layout_marginLeft="10dp"
+                android:text="@string/string_more_info"
+                android:textSize="@dimen/info_text_more_size"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/string_how_advise"
+                android:id="@+id/textHowAdvice"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/info_des_size2"
+                android:layout_below="@+id/moreInfo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/info_des_margin" />
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>

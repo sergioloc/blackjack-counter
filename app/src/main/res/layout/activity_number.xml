@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context="com.example.sergio.blackjack.Number"
+    android:background="@drawable/fondo2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/string_deck"
+        android:id="@+id/textNumber"
+        android:textSize="@dimen/text_number_size"
+        android:textStyle="bold|italic"
+        android:typeface="serif"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/text_number_margin_top"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageButton
+        android:layout_width="@dimen/button_card_width"
+        android:layout_height="@dimen/button_card_height"
+        android:id="@+id/button1"
+        android:layout_marginTop="@dimen/button_card_margin_top"
+        android:background="@drawable/button_card_1"
+        android:layout_marginRight="@dimen/button_card_margin_sides"
+        android:layout_below="@+id/textNumber"
+        android:layout_toLeftOf="@+id/button2" />
+
+    <ImageButton
+        android:layout_width="@dimen/button_card_width"
+        android:layout_height="@dimen/button_card_height"
+        android:id="@+id/button2"
+        android:layout_alignTop="@+id/button1"
+        android:layout_below="@+id/textNumber"
+        android:background="@drawable/button_card_2"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="@dimen/button_card_width"
+        android:layout_height="@dimen/button_card_height"
+        android:id="@+id/button3"
+        android:layout_marginLeft="@dimen/button_card_margin_sides"
+        android:background="@drawable/button_card_3"
+        android:layout_alignTop="@+id/button1"
+        android:layout_toRightOf="@+id/button2" />
+
+    <ImageButton
+        android:layout_width="@dimen/button_card_width"
+        android:layout_height="@dimen/button_card_height"
+        android:id="@+id/button4"
+        android:background="@drawable/button_card_4"
+        android:layout_alignTop="@+id/button5"
+        android:layout_alignRight="@+id/button1" />
+
+    <ImageButton
+        android:layout_width="@dimen/button_card_width"
+        android:layout_height="@dimen/button_card_height"
+        android:id="@+id/button5"
+        android:background="@drawable/button_card_5"
+        android:layout_below="@+id/button3"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2" />
+
+    <ImageButton
+        android:layout_width="@dimen/button_card_width"
+        android:layout_height="@dimen/button_card_height"
+        android:id="@+id/button6"
+        android:background="@drawable/button_card_6"
+        android:layout_alignTop="@+id/button5"
+        android:layout_alignLeft="@+id/button3"/>
+
+    <ImageButton
+        android:layout_width="@dimen/button_card_width"
+        android:layout_height="@dimen/button_card_height"
+        android:id="@+id/button7"
+        android:background="@drawable/button_card_7"
+        android:layout_below="@+id/button5"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_alignStart="@+id/button5" />
+
+    <ImageButton
+        android:id="@+id/buttonQuest"
+        android:layout_width="@dimen/button_number_quest_size"
+        android:layout_height="@dimen/button_number_quest_size"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_quest"
+        android:layout_alignBottom="@+id/switch1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_true"
+        android:textColor="#FFFFFF"
+        android:checked="true"
+        android:textSize="@dimen/switch_number_size"
+        android:theme="@style/SwitchCompatTheme"
+        android:layout_above="@+id/adView"
+        android:layout_marginBottom="15dp"
+        android:alpha="80"
+        android:layout_alignRight="@+id/button7"
+        android:layout_alignEnd="@+id/button7" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-8901700829116269/3352593322">
+    </com.google.android.gms.ads.AdView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_1"
+            android:icon="@drawable/ic_action_menu"
+            android:title="A (%): " />
+        <item
+            android:id="@+id/nav_2"
+            android:icon="@drawable/ic_action_menu"
+            android:title="2 (%): " />
+        <item
+            android:id="@+id/nav_3"
+            android:icon="@drawable/ic_action_menu"
+            android:title="3 (%): " />
+        <item
+            android:id="@+id/nav_4"
+            android:icon="@drawable/ic_action_menu"
+            android:title="4 (%): " />
+        <item
+            android:id="@+id/nav_5"
+            android:icon="@drawable/ic_action_menu"
+            android:title="5 (%): " />
+        <item
+            android:id="@+id/nav_6"
+            android:icon="@drawable/ic_action_menu"
+            android:title="6 (%): " />
+        <item
+            android:id="@+id/nav_7"
+            android:icon="@drawable/ic_action_menu"
+            android:title="7 (%): " />
+        <item
+            android:id="@+id/nav_8"
+            android:icon="@drawable/ic_action_menu"
+            android:title="8 (%): " />
+        <item
+            android:id="@+id/nav_9"
+            android:icon="@drawable/ic_action_menu"
+            android:title="9 (%): " />
+        <item
+            android:id="@+id/nav_10"
+            android:icon="@drawable/ic_action_menu"
+            android:title="10 (%): " />
+        <item
+            android:id="@+id/nav_11"
+            android:icon="@drawable/ic_action_menu"
+            android:title="J (%): " />
+        <item
+            android:id="@+id/nav_12"
+            android:icon="@drawable/ic_action_menu"
+            android:title="Q (%): " />
+        <item
+            android:id="@+id/nav_13"
+            android:icon="@drawable/ic_action_menu"
+            android:title="K (%): " />
+    </group>
+
+</menu>

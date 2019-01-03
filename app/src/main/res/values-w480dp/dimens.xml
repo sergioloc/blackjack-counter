@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Main -->
+    <dimen name="button_go_width">400dp</dimen>
+    <dimen name="button_go_height">180dp</dimen>
+    <dimen name="button_go_margin_top">150dp</dimen>
+    <dimen name="text_title_size">70sp</dimen>
+    <dimen name="text_title_margin_top">55dp</dimen>
+
+    <!-- Menu -->
+    <dimen name="button_menu_width">300dp</dimen>
+    <dimen name="button_menu_height">100dp</dimen>
+    <dimen name="button_menu_margin">50dp</dimen>
+    <dimen name="text_menu_size">30sp</dimen>
+
+    <!-- Number -->
+    <dimen name="button_card_width">145dp</dimen>
+    <dimen name="button_card_height">175dp</dimen>
+    <dimen name="button_card_margin_top">90dp</dimen>
+    <dimen name="button_card_margin_sides">30dp</dimen>
+    <dimen name="button_number_quest_size">40dp</dimen>
+    <dimen name="text_number_size">35sp</dimen>
+    <dimen name="text_number_margin_top">35dp</dimen>
+    <dimen name="switch_number_size">20dp</dimen>
+
+    <!-- Counter Simple -->
+    <dimen name="counter_simple_relative_margin_top">20dp</dimen>
+    <dimen name="counter_simple_relative_height">80dp</dimen>
+    <dimen name="text_count_margin_left">35dp</dimen>
+    <dimen name="text_count_size">90sp</dimen>
+    <dimen name="text_percent_result_size">30sp</dimen>
+    <dimen name="text_percent_info_size">25sp</dimen>
+    <dimen name="line_height">5dp</dimen>
+    <dimen name="line_margin_top">20dp</dimen>
+    <dimen name="counter_simple_table_margin_top">50dp</dimen>
+    <dimen name="counter_button_text_size">70sp</dimen>
+    <dimen name="counter_simple_button_width">350dp</dimen>
+    <dimen name="counter_simple_button_height">116dp</dimen>
+    <dimen name="counter_simple_extra_button_size">45dp</dimen>
+    <dimen name="counter_simple_extra_margin">50dp</dimen>
+
+    <!-- Counter -->
+    <dimen name="counter_padding_top">20dp</dimen>
+    <dimen name="counter_text_count_margin_left">30dp</dimen>
+    <dimen name="counter_text_count_size">80sp</dimen>
+    <dimen name="counter_text_advance_size">30sp</dimen>
+    <dimen name="counter_button_advance_size">40dp</dimen>
+    <dimen name="counter_button_advance_margin_right">15dp</dimen>
+    <dimen name="counter_text_margin">70dp</dimen>
+    <dimen name="counter_button_size">120dp</dimen>
+    <dimen name="counter_list_width">300dp</dimen>
+    <dimen name="counter_relative_height">110dp</dimen>
+    <dimen name="counter_padding_10">8dp</dimen>
+
+    <!-- Info -->
+    <dimen name="info_title_size">35sp</dimen>
+    <dimen name="info_title_margin_top">20dp</dimen>
+    <dimen name="info_steps_size">25sp</dimen>
+    <dimen name="info_des_size">20sp</dimen>
+    <dimen name="info_des_size2">15sp</dimen>
+    <dimen name="info_steps_margin">25dp</dimen>
+    <dimen name="info_des_margin">15dp</dimen>
+    <dimen name="info_image_margin">10dp</dimen>
+    <dimen name="info_text_more_size">20sp</dimen>
+    <dimen name="info_button_more_size">60dp</dimen>
+
+    <!-- Play -->
+    <dimen name="play_countdown_size">100sp</dimen>
+    <dimen name="play_card_width">200sp</dimen>
+    <dimen name="play_card_height">310sp</dimen>
+
+    <!-- Trainer -->
+    <dimen name="trainer_text_start_size">45sp</dimen>
+    <dimen name="trainer_button_start_width">220dp</dimen>
+    <dimen name="trainer_button_start_height">80dp</dimen>
+    <dimen name="trainer_button_start_margin_top">70dp</dimen>
+    <dimen name="trainer_speed_size">35sp</dimen>
+    <dimen name="trainer_speed_op_size">30sp</dimen>
+    <dimen name="trainer_button_speed_width">140dp</dimen>
+    <dimen name="trainer_button_speed_height">50dp</dimen>
+    <dimen name="trainer_button_speed_text">30sp</dimen>
+    <dimen name="trainer_margin_right">20dp</dimen>
+    <dimen name="trainer_margin_left">20dp</dimen>
+    <dimen name="trainer_edit_width">100dp</dimen>
+    <dimen name="trainer_edit_size">30sp</dimen>
+    <dimen name="trainer_ask_size">35sp</dimen>
+    <dimen name="trainer_buttons_end_height">80dp</dimen>
+    <dimen name="trainer_buttons_end_width">220dp</dimen>
+    <dimen name="trainer_buttons_end_margin_top">15dp</dimen>
+    <dimen name="trainer_buttons_end_margin_right">10dp</dimen>
+    <dimen name="trainer_answer_size">25sp</dimen>
+    <dimen name="trainer_answer_des_size">20sp</dimen>
+    <dimen name="trainer_end_button_text_size">30sp</dimen>
+
+
+
+
+
+</resources>

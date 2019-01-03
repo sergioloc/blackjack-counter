@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="title_activity_principal">Blackjack Counter</string>
+    <string name="title_activity_prueba">Blackjack Counter</string>
+    <string name="title_activity_number">Blackjack Counter</string>
+    <string name="string_deck">NÚMERO DE BARAJAS</string>
+    <string name="string_true">Cuenta Real</string>
+    <string name="string_what">"¿Qué es la Cuenta Real?"</string>
+
+    // Counter Simple
+    <string name="string_plus">No quedan cartas entre 2 y 6</string>
+    <string name="string_minus">No quedan cartas entre 10 y A</string>
+    <string name="string_equal">No quedan cartas entre 7 y 9</string>
+    <string name="string_total">No quedan cartas en la baraja</string>
+
+    //Menu
+    <string name="string_counter">CONTADOR</string>
+    <string name="string_trainer">ENTRENADOR</string>
+    <string name="string_how">CÓMO CONTAR CARTAS</string>
+
+    //Counter
+    <string name="string_advanced">ESTADÍSTICA\nAVANZADA</string>
+    <string name="string_no_1">No quedan A</string>
+    <string name="string_no_2">No quedan 2</string>
+    <string name="string_no_3">No quedan 3</string>
+    <string name="string_no_4">No quedan 4</string>
+    <string name="string_no_5">No quedan 5</string>
+    <string name="string_no_6">No quedan 6</string>
+    <string name="string_no_7">No quedan 7</string>
+    <string name="string_no_8">No quedan 8</string>
+    <string name="string_no_9">No quedan 9</string>
+    <string name="string_no_10">No quedan 10</string>
+    <string name="string_no_J">No quedan J</string>
+    <string name="string_no_Q">No quedan Q</string>
+    <string name="string_no_K">No quedan K</string>
+    <string name="string_there">Quedan </string>
+    <string name="string_and"> y </string>
+    <string name="string_left"> cartas en total</string>
+    <string name="string_reset">¿Desea resetar la cuenta?</string>
+    <string name="string_extra">INFORMACIÓN EXTRA</string>
+    <string name="string_cards">CARTAS</string>
+    <string name="string_reset_title">Aviso</string>
+    <string name="string_history">HISTORIAL</string>
+    <string name="string_num_his">Númbero de elementos en el historial:</string>
+    <string name="string_info_his1">Posición</string>
+    <string name="string_info_his2">Carta</string>
+
+
+    //Trainer
+    <string name="string_speed">VELOCIDAD</string>
+    <string name="string_speed_normal">NORMAL</string>
+    <string name="string_speed_fast">RÁPIDO</string>
+    <string name="string_speed_slow">LENTO</string>
+    <string name="string_number_cards">NÚMERO DE CARTAS</string>
+    <string name="string_count_result">RESULTADO DE LA CUENTA</string>
+    <string name="string_acept">ACEPTAR</string>
+    <string name="string_try_again">INTENTAR\nDE NUEVO</string>
+    <string name="string_repeat">REPETIR</string>
+    <string name="string_change_settings">CAMBIAR\nAJUSTES</string>
+    <string name="string_good">BIEN</string>
+    <string name="string_wrong">MAL</string>
+    <string name="string_wrong_des">La es cuenta es </string>
+    <string name="string_value">Introduce un valor</string>
+    <string name="string_info_count">La cuenta es </string>
+    <string name="string_between">Debe ser un número entre 1 y 52</string>
+
+    //Help
+    <string name="string_help">Ayuda</string>
+    <string name="string_help_des">Selecciona con cuantas barajas estás jugando.
+        \nSi no lo sabes, en los casinos normalmente utilizan 7.
+        \nCuanto menor sea el número de barajas, más precisa será la información</string>
+    <string name="string_help_des2">Aquí puedes entrenar la técnica de contar cartas.
+        \nElige una velocidad y con cuantas cartas quieres practicar.
+        \nPulsa Start y ¡lleva la cuenta!</string>
+
+    <string name="string_work">En proceso</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="string_spanish">Español</string>
+    <string name="string_english">Ingles</string>
+    <string name="string_ok">Aceptar</string>
+    <string name="string_cancel">Cancelar</string>
+
+
+
+    //Info
+    <string name="string_how_des_4steps">Contar cartas se puede dividir en 4 pasos:</string>
+    <string name="string_how_des_step_1">Paso 1: Asignar un valor a cada carta</string>
+    <string name="string_how_des_step_2">Paso 2: Llevar la cuenta</string>
+
+    <string name="string_how_des_step_2_des">Mantén el recuento durante la partida sumando o
+        restando cada vez que se saque una carta.</string>
+    <string name="string_how_des_step_2_des2">La cuenta de esta ronda es +1.
+        \nCuando el repartidor mezcla la baraja la cuenta vuelve a 0.</string>
+
+    <string name="string_how_des_step_3">Paso 3: "Cuenta Real"</string>
+    <string name="string_how_des_step_3_des">En un intento de frustrar a los contadores de cartas,
+        los casinos empezaron a usar varias barajas.\nPara poder utilizar nuestra cuenta en
+        un juego de múltiples barajas, simplemente tenemos que traducir nuestra información
+        a una Cuenta Real o conteo por mazo.
+        \nPor ejemplo, tener la cuenta en +5 con 6 mazos es un escenario completamente
+        distinto a tener un recuento de +5 con sólo 1 mazo.
+        \nEn el primer caso, queda menos de 1 carta alta adicional
+        por mazo por lo que el jugador aún no tiene la ventaja.
+        \nPero si tienes esa cuenta con sólo 1 mazo, sabemos que hay 5 10s y Ases extra
+        en las 52 cartas restantes.
+        \nPor ello para calcular la Cuenta Real dividiremos la cuenta entre el número de barajas.
+    </string>
+    <string name="string_how_des_step_3_des2">Por ejemplo: si nuestra cuenta es de 10 y jugamos
+        con 5 barajas, nuestra Cuenta Real es 10÷5 = 2. O si nuestra cuenta es -7 y jugamos
+        con 2 barajas, nuestra Cuenta Real es -7÷2 = -3.</string>
+
+    <string name="string_how_des_step_4">Paso 4: ¿Cuándo apostar?</string>
+    <string name="string_how_des_step_4_des">SISTEMA CUENTA REAL:
+        \n- Cuenta real en +1 o menos: apuesta mínima.
+        \n- Cuenta real en +2 o +3: apuesta 2 veces la apuesta inicial.
+        \n- Cuenta real en +4 o +5: apuesta 3 veces la apuesta inicial.
+        \n- Cuenta real en +6 o +7: apuesta 4 veces la apuesta inicial.
+        \n- Cuenta real en +8 o más: tú elección.</string>
+
+    <string name="string_how_advise">Contar cartas es un método basado en la estadística
+        y en la probabilidad. No es 100% efectivo, juega y apuesta bajo tu responsabilidad.</string>
+    <string name="string_more_info">Más información</string>
+
+
+
+</resources>

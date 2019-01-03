@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "125904075317",
+    "firebase_url": "https://blackjack-counter-2.firebaseio.com",
+    "project_id": "blackjack-counter-2",
+    "storage_bucket": "blackjack-counter-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125904075317:android:7bf70e35f5e578ca",
+        "android_client_info": {
+          "package_name": "com.sergio.blackjack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "125904075317-n8qfht7he36bh0pdqf6q9skcmunmjcv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPxw9cFcCI9KrwBf49uICLzW-3qnVrOzk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
